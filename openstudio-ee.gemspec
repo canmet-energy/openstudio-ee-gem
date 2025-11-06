@@ -28,10 +28,10 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '~> 3.2.2'
 
-  spec.add_dependency 'bundler', '~> 2.4.10'
+  spec.add_dependency 'bundler', '>= 2.4.10'
   spec.add_dependency 'multipart-post', '2.4.0'
-  spec.add_dependency 'openstudio-extension', '~> 0.9.3'
-  spec.add_dependency 'openstudio-standards', '0.8.2'
+  spec.add_dependency 'openstudio-extension', '>= 0.9.3'
+  spec.add_dependency 'openstudio-standards', '>=0.8.2'
 
   spec.add_development_dependency 'octokit', '4.18.0' # for change logs
   spec.add_development_dependency 'rake', '~> 13.0'
